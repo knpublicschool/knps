@@ -14,7 +14,7 @@ import AcademicPrograms from './components/Pages/AcademicPrograms'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import AcademicResource from './components/Pages/Subpages/AcademicResource'
 import Library from './components/Pages/Subpages/Library'
-import Support from './components/Pages/Subpages/support'
+import Support from './components/Pages/Subpages/Support'
 import NotFound from './components/Notfound'
 import Policies from './components/Pages/Subpages/Policies'
 import GuidelineAndCounseling from './components/Pages/Subpages/GuidelinesAndCounseling'
