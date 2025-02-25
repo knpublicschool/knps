@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    transition: all 0.8s ease;
+}
+.corousel-inner{
+    width: 100%;
+    height: 500px;
+}
+.corousel-item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* padding-top: 56.25%; Aspect foe 16:9 (9/16*100) */
+    overflow: hidden;
+}
+.corousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.custom-gradient{
+    @apply absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]
+}
+.custom-overlay{
+    @apply absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_800px_at_100%_200px,#d5c5ff,transparent)]
+}
+
+.navbar-another{
+
+    /* border-radius: 26px;
+    background: #e0e0e0;
+    box-shadow: inset 5px -5px 0px #a1a1a1,
+    inset -5px 5px 0px #ffffff; */
+
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+                  -20px -20px 60px #ffffff;
+}

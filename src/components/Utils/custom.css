@@ -1,0 +1,17 @@
+/* Hide Navbar Initially */
+.hidden-navbar {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Show Navbar on Scroll */
+.show-navbar {
+    transform: translateY(0);
+}
+
+.navbar-alag{
+    background: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari Support */
+    transition: all 0.3s ease-in-out;
+}

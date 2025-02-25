@@ -1,0 +1,220 @@
+* {
+    transition: all 0.3s ease-in-out; /* Adjust duration and timing as needed */
+  }
+
+body{
+  background-color: #FFF8E1;
+  font-family: "Roboto", serif !important;
+  }
+
+.navbar-new{
+  background-color: #7bead4;
+}
+.gfont{
+  /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900{ */
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.box-shadow-black{
+  box-shadow:0px 4px 8px rgba(0, 0, 0, 0.7);
+}
+.box-shadow-white{
+  box-shadow:0px 4px 8px rgba(196, 15, 15, 0.7);
+}
+.box-shadow-primary{
+	box-shadow: 0px 4px 8px rgb(216, 180, 1);
+}
+.box-shadow-reddish{
+	box-shadow: 0px 4px 8px rgba(237, 23, 23, 0.896);
+}
+.box-shadow-blueish{
+	box-shadow: 0px 4px 8px rgb(12, 49, 233);
+}
+.bg-dark{
+  background-color: rgb(128, 2, 90);
+}
+.bg-light{
+  background-color: #FFF8E1;
+}
+.bg-dark-accordion{
+  background-color: #435B66;
+}
+.bg-light-accordion{
+  background-color: #DDE6ED;
+}
+.bg-dark-list{
+  background-color: #643A6B;
+}
+.bg-light-list{
+  background-color: #D4ADFC;
+}
+.text-black{
+  color: black;
+}
+.text-white{
+  color: white;
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-from-left {
+    animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-from-right {
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+.scale:hover{
+	transform: scale(1.02);
+}
+.image-center{
+	width: 8rem;
+  border-radius: 50%;
+	margin: auto;
+}
+
+.dark-footer{
+  background-color: #391c5c;
+}
+.light-footer{
+  background-color: #ffbf00;
+}
+.body-light{
+  background-color: #ffffff;
+}
+.body-dark{
+  background-color: #000000e4;
+}
+.navbar-dark{
+  background-color: #2e0707;
+}
+.navbar-light{
+  background-color: rgb(171 221 146);
+  /* background-color: white; */
+}
+.modal-dark{
+  background-color: #1e1e1e;
+}
+.modal-light{
+  background-color: #ffffff;
+}
+
+.accordion-button:focus,.accordion-button:active{
+  box-shadow: none;
+  outline: none;
+  background-color: white;
+}
+
+.student-primary-color{
+  background-color: #4A90E2;
+}
+
+.student-accent-color{
+  color: #2D3748;
+}
+
+
+
+.custom-header {
+  background-color: #f8f9fa;
+  border-bottom: 3px solid #007bff;
+  padding: 20px 0;
+}
+.document-section {
+  margin-bottom: 30px;
+}
+.note-section {
+  background-color: #e9ecef;
+  border-left: 5px solid #007bff;
+  padding: 15px;
+}
+
+.footer-image{
+  width: 50%;
+  border-radius: 50%;
+}
+.footer-contact{
+  background-color: #FFF8E1;
+}
+
+.contact-card{
+  background-color: #FAE596;
+}
+
+.contact-message{
+  background-color: #FAE596;
+}
+.contact-follow{
+  background-color: #FAE596;
+}
+.contact-text{
+  color: #333333;
+}
+
+.display-6n{
+  font-size: calc(1.25rem + 1.5vw);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.display-7 {
+  font-size: calc(0.5rem + 1vw);
+  font-weight: 400;
+  line-height: 2;
+}
+
+.display-nav {
+  font-size: calc(0.8rem + 0.7vw);
+  font-weight: 400;
+  /* line-height: 2; */
+}
+
+.u{
+  text-decoration: underline;
+}
+
+.underline-none{
+  text-decoration: none;
+}

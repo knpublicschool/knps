@@ -1,0 +1,47 @@
+  .neumorphism-container {
+      background: #e0e5ec;
+      border-radius: 20px;
+      box-shadow: 20px 20px 60px #a3b1c6, -20px -20px 60px #ffffff;
+      padding: 30px;
+      width: 100%;
+      max-width: 500px;
+  }
+
+  .neumorphism-container h1 {
+      font-size: 72px;
+      color: #555;
+      font-weight: 700;
+  }
+
+  .neumorphism-container p {
+      font-size: 18px;
+      color: #777;
+  }
+
+  .under-development-text {
+      font-size: 16px;
+      color: #ff6347;
+      /* Tomato color for emphasis */
+      margin-top: 20px;
+      font-weight: 500;
+  }
+
+  .btn-custom {
+      background-color: #6c757d;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 25px;
+      text-transform: uppercase;
+      box-shadow: 2px 2px 8px #a3b1c6, -2px -2px 8px #ffffff;
+      text-decoration: none;
+  }
+
+  .btn-custom:hover {
+      background-color: #5a6268;
+      box-shadow: 2px 2px 12px #a3b1c6, -2px -2px 12px #ffffff;
+  }
+
+  .btn-custom:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.5);
+  }
